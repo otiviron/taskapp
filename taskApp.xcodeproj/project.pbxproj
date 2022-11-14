@@ -14,6 +14,7 @@
 		EB109E26291FA4820071557A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB109E25291FA4820071557A /* Assets.xcassets */; };
 		EB109E29291FA4820071557A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB109E27291FA4820071557A /* LaunchScreen.storyboard */; };
 		EB109E31291FDED30071557A /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB109E30291FDED30071557A /* InputViewController.swift */; };
+		EB38877C2920C20F00E21BBA /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38877B2920C20F00E21BBA /* Task.swift */; };
 		FF79FA6F078A61BE65515D07 /* Pods_taskApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6090117695F7AA9E938E65A /* Pods_taskApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +29,8 @@
 		EB109E28291FA4820071557A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB109E2A291FA4820071557A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB109E30291FDED30071557A /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
-		EB3887772920BCE300E21BBA /* taskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = taskApp.app; path = "/Users/koi/Desktop/taskApp/build/Debug-iphoneos/taskApp.app"; sourceTree = "<absolute>"; };
+		EB3887792920BE6F00E21BBA /* taskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB38877B2920C20F00E21BBA /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		F6090117695F7AA9E938E65A /* Pods_taskApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_taskApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -58,7 +60,6 @@
 				2D3C3D9ABC64AE98883FE53E /* Pods-taskApp.debug.xcconfig */,
 				357CB80A82D5142BAFFA9206 /* Pods-taskApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -68,6 +69,7 @@
 				EB109E1B291FA4810071557A /* taskApp */,
 				AE2D5147C3C7486C6D67FC8F /* Pods */,
 				9F09B2E2C16C86B032D0E3A9 /* Frameworks */,
+				EB3887792920BE6F00E21BBA /* taskApp.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +78,7 @@
 			children = (
 				EB109E1C291FA4810071557A /* AppDelegate.swift */,
 				EB109E1E291FA4810071557A /* SceneDelegate.swift */,
+				EB38877B2920C20F00E21BBA /* Task.swift */,
 				EB109E20291FA4810071557A /* ViewController.swift */,
 				EB109E30291FDED30071557A /* InputViewController.swift */,
 				EB109E22291FA4810071557A /* Main.storyboard */,
@@ -105,7 +108,7 @@
 			);
 			name = taskApp;
 			productName = taskApp;
-			productReference = EB3887772920BCE300E21BBA /* taskApp.app */;
+			productReference = EB3887792920BE6F00E21BBA /* taskApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -203,6 +206,7 @@
 			files = (
 				EB109E21291FA4810071557A /* ViewController.swift in Sources */,
 				EB109E1D291FA4810071557A /* AppDelegate.swift in Sources */,
+				EB38877C2920C20F00E21BBA /* Task.swift in Sources */,
 				EB109E1F291FA4810071557A /* SceneDelegate.swift in Sources */,
 				EB109E31291FDED30071557A /* InputViewController.swift in Sources */,
 			);
